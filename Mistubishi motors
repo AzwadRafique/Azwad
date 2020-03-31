@@ -1,0 +1,20 @@
+import turtle
+
+tim = turtle.Turtle()
+tim.color("red")
+tim.hideturtle()
+tim.begin_fill()
+tim.penup()
+tim.goto(-150, -100)
+tim.pendown()
+for i in range(3):
+    tim.forward(100)
+    tim.left(60)
+    tim.forward(100)
+    tim.right(120)
+    tim.forward(100)
+    tim.left(60)
+    tim.forward(100)
+    tim.left(120)
+tim.end_fill()
+turtle.done()

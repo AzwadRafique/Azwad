@@ -1,0 +1,6 @@
+adj = input("Insert an adjective ")
+noun = input("Insert a noun ")
+verb = input("Insert a verb ending with 'ing' ")
+
+sentence = f"Our house has {adj} furniture and there is a {verb} {noun}"
+print(sentence)

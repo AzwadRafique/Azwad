@@ -1,3 +1,5 @@
+# A fun program using Binary search and Bubble sort
+
 arr = [0]
 proceed = 1
 stop = False

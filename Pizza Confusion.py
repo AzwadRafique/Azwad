@@ -19,6 +19,12 @@ for y in range(len(scores)):
             temporary_names = names[placement + 1]
             names[placement + 1] = names[placement]
             names[placement] = temporary_names
+        if scores[placement] == scores[placement + 1]:
+            if names[placement] > names[placement + 1]:
+                temporary_alphabet = names[placement + 1]
+                names[placement + 1] = names[placement]
+                names[placement] = temporary_alphabet
+
     if not swapped:
         break
 
